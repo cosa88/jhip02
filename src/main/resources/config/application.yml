@@ -92,7 +92,7 @@ management:
 
 spring:
   application:
-    name: jhip02
+    name: Jhip02App
   profiles:
     # The commented value for `active` can be replaced with valid Spring profiles to load.
     # Otherwise, it will be filled in by maven when building the JAR file
@@ -139,13 +139,13 @@ spring:
       matching-strategy: ant_path_matcher
   task:
     execution:
-      thread-name-prefix: jhip-02-task-
+      thread-name-prefix: jhip-02-app-task-
       pool:
         core-size: 2
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: jhip-02-scheduling-
+      thread-name-prefix: jhip-02-app-scheduling-
       pool:
         size: 2
   thymeleaf:
@@ -186,12 +186,12 @@ jhipster:
   #   allow-credentials: true
   #   max-age: 1800
   mail:
-    from: jhip02@localhost
+    from: Jhip02App@localhost
   api-docs:
     default-include-pattern: ${server.servlet.context-path:}/api/**
     management-include-pattern: ${server.servlet.context-path:}/management/**
-    title: Jhip 02 API
-    description: Jhip 02 API documentation
+    title: Jhip 02 App API
+    description: Jhip 02 App API documentation
     version: 0.0.1
     terms-of-service-url:
     contact-name:

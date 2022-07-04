@@ -31,7 +31,7 @@ public class Jhip02App {
     }
 
     /**
-     * Initializes jhip02.
+     * Initializes Jhip02App.
      * <p>
      * Spring profiles can be configured with a program argument --spring.profiles.active=your-active-profile
      * <p>
